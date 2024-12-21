@@ -1,0 +1,35 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react by Jyothika",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jyothika-CS/react-js.git"
+  },
+  "keywords": [
+    "react",
+    "jyothika"
+  ],
+  "author": "Jyothika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jyothika-CS/react-js/issues"
+  },
+  "homepage": "https://github.com/Jyothika-CS/react-js#readme",
+  "devDependencies": {
+    "parcel": "^2.13.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
