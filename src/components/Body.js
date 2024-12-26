@@ -1,9 +1,9 @@
 import RestaurantCard, { withIsOpenLabel } from "./RestaurantCard";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
-
+import UserContext from "../utils/UserContext";
 const Body = () => {
   // local State Variable
   const [listOfRestaurants, setlistOfRestaurants] = useState([]);
@@ -41,6 +41,8 @@ const Body = () => {
       </h1>
     );
   }
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
 
   // Conditional rendering
   return listOfRestaurants.length === 0 ? (
@@ -84,6 +86,14 @@ const Body = () => {
             Top Rated Restaurants
           </button>
         </div>
+        <div className="search m-4 p-4 flex items-center">
+          <label>UserName : </label>
+          <input
+            className="border border-black m-2 p-1 rounded-md"
+            onChange={(e) => setUserName(e.target.value)}
+            value={loggedInUser}
+          />
+        </div>
       </div>
       <div className="flex flex-wrap">
         {filteredRestaurant.map((restaurant) => (
@@ -93,11 +103,10 @@ const Body = () => {
             style={{ textDecoration: "none", color: "black" }}
           >
             {restaurant.info.isOpen ? (
-                <RestaurantCardOpen resData={restaurant}/>
-              ) : (
-                <RestaurantCard resData={restaurant} />
-              )
-            }
+              <RestaurantCardOpen resData={restaurant} />
+            ) : (
+              <RestaurantCard resData={restaurant} />
+            )}
           </Link>
         ))}
       </div>
