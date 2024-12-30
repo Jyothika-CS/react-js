@@ -1,0 +1,85 @@
+{
+    "info": {
+        "id": "489129",
+        "name": "Chinese Wok",
+        "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+        "locality": "Anand Nagar",
+        "areaName": "Marathahalli",
+        "costForTwo": "₹250 for two",
+        "cuisines": [
+            "Chinese",
+            "Asian",
+            "Tibetan",
+            "Desserts"
+        ],
+        "avgRating": 4.2,
+        "parentId": "61955",
+        "avgRatingString": "4.2",
+        "totalRatingsString": "4.9K+",
+        "sla": {
+            "deliveryTime": 24,
+            "lastMileTravel": 3,
+            "serviceability": "SERVICEABLE",
+            "slaString": "20-25 mins",
+            "lastMileTravelString": "3.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2024-12-31 02:00:00",
+            "opened": true
+        },
+        "badges": {
+            "imageBadges": [
+                {
+                    "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png",
+                    "description": "Delivery!"
+                }
+            ]
+        },
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {
+                    "badgeObject": [
+                        {
+                            "attributes": {
+                                "description": "Delivery!",
+                                "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Noodles.png"
+                            }
+                        }
+                    ]
+                },
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹149"
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {},
+        "externalRatings": {
+            "aggregatedRating": {
+                "rating": "--"
+            }
+        },
+        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+    },
+    "analytics": {
+        "context": "seo-data-6c205476-f2b2-4e31-b048-9e1477fb51d9"
+    },
+    "cta": {
+        "link": "https://www.swiggy.com/city/bangalore/chinese-wok-anand-nagar-marathahalli-rest489129",
+        "type": "WEBLINK"
+    }
+}
